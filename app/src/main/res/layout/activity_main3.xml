@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Main3Activity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Datos del proyecto"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:layout_marginBottom="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripción del proyecto"
+        android:id="@+id/insertaDescripcion"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ubicación del proyecto"
+        android:id="@+id/insertaUbicacion"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha: AAAA/MM/DD"
+        android:id="@+id/insertaFecha"
+        android:inputType="date"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Presupuesto del proyecto"
+        android:inputType="numberDecimal"
+        android:id="@+id/insertaPresupuesto"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insertar"
+        android:id="@+id/registraProyecto"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:id="@+id/regresaProyecto"
+        />
+</LinearLayout>
